@@ -3,10 +3,10 @@ namespace RRCHNMDonate;
 
 use Omeka\Module\AbstractModule;
 use Omeka\Permissions\Assertion\HasSitePermissionAssertion;
-use Zend\Form\Fieldset;
-use Zend\EventManager\Event;
-use Zend\Mvc\MvcEvent;
-use Zend\EventManager\SharedEventManagerInterface;
+use Laminas\Form\Fieldset;
+use Laminas\EventManager\Event;
+use Laminas\Mvc\MvcEvent;
+use Laminas\EventManager\SharedEventManagerInterface;
 
 class Module extends AbstractModule
 {
